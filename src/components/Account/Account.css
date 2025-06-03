@@ -1,0 +1,152 @@
+.account-page {
+    padding: 2rem;
+    background-color: #f5f7fa;
+}
+
+.account-card {
+    background-color: white;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.account-card h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+}
+
+.account-card p {
+    color: #666;
+    margin-bottom: 1.2rem;
+}
+
+.logout-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #d32f2f;
+}
+
+.logout-btn img {
+    width: 18px;
+    height: 18px;
+}
+
+.favorite-section {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.favorite-section h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.favorite-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:first-of-type {
+    background-color: #1e88e5;
+    color: white;
+}
+
+button:first-of-type:hover {
+    background-color: #1565c0;
+}
+
+button:last-of-type {
+    background-color: transparent;
+    color: #1e88e5;
+    border: 1px solid #1e88e5;
+}
+
+button:last-of-type:hover {
+    background-color: #e3f2fd;
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.account-info {
+    width: 100%;
+    max-width: 400px;
+    margin: 1.5rem auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.info-label {
+    font-weight: 600;
+    color: #444;
+    min-width: 90px;
+}
+
+.info-value {
+    font-weight: 600;
+    font-size: 18px;
+    color: #111;
+}
+
+
