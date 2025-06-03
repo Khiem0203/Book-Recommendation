@@ -1,0 +1,121 @@
+body {
+    background-color: #f5f7fa !important;
+    font-family: Inter, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin-top: 30px;
+}
+
+.search-input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #64636380 !important;
+    border-radius: 20px;
+    padding: 0 24px;
+    font-size: 20px;
+    color: #797979 !important;
+    background-color: #ffffff !important;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.search-button {
+    width: 680px;
+    height: 50px;
+    border: 1px solid #000000 !important;
+    border-radius: 20px;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.search-button:hover {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.book-list {
+    list-style: none;
+    padding: 40px 0;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+
+.autocomplete-container {
+    position: relative;
+    width: 680px;
+}
+
+.autocomplete-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: white;
+    border: 1px solid #ccc !important;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    max-height: 250px;
+}
+
+.autocomplete-item {
+    padding: 16px 24px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.autocomplete-item:hover {
+    background-color: #f0f0f0 !important;
+}
+
+.chat-popup {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    max-width: 300px;
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    z-index: 999;
+}
+
+.close-chat {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    float: right;
+    cursor: pointer;
+}
+
+
+
+
