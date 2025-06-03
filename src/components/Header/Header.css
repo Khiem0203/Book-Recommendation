@@ -1,0 +1,36 @@
+.page-header {
+    position: relative;
+    height: 100px;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-title {
+    font-size: 2rem;
+    margin: 0;
+    color: #1e1e1e;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.2s ease;
+    text-align: center;
+}
+
+.page-title:hover {
+    color: #1565c0;
+    text-decoration: underline;
+}
+
+.login-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
